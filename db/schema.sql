@@ -27,8 +27,7 @@ CREATE TABLE department
         (id),
     FOREIGN KEY
         (department_id) REFERENCES department
-        (id)
-    
+        (id)    
 );
 
         CREATE TABLE employee
